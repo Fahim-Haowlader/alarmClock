@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    color: white;
+
+}
+.timeDate{
+    font-size: 100px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+   margin-left: 50px;
+    margin-top: 50px;
+
+}
+.timeDate h2{
+    font-size: 70px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+   
+
+}
+.alarm {
+    position: absolute;
+    right: 20px;
+    top: 150px;
+    font-size: 20px;
+}
+.alarm input{
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    margin-right: 30px;
+
+}
+.alarm button{
+    width: 280px;
+    height: 60px;
+    font-size: 20px;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #333;
+    color: white;
+   margin-top: 40px;
+    }
+  .alarm button:active{
+    background-color: #444;
+  }  
+ #setTime{
+    position: absolute;
+    right: 80px;
+    top: 400px;
+    font-size: 20px;
+    width: 240px;
+  }
